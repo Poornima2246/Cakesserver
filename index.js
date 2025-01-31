@@ -142,7 +142,7 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:3001' }));
+app.use(cors({ origin: 'https://poornima2246.github.io/Cakesfrontend/' }));
 app.use(bodyParser.json());
 app.use(express.json());
 
